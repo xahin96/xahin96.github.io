@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #1A9C00;
+  background-color: #8781bd;
 }
 
 .dev-icons {
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #1A9C00;
+  color: #8781bd;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -176,15 +176,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #1A9C00 !important;
+  background-color: #8781bd !important;
 }
 
 .text-primary {
-  color: #1A9C00 !important;
+  color: #8781bd !important;
 }
 
 a {
-  color: #1A9C00;
+  color: #8781bd;
 }
 
 a:hover, a:focus, a:active {
