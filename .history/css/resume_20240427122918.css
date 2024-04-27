@@ -46,14 +46,9 @@ p.lead {
   font-weight: 400;
 }
 
-ul{
-  margin: 0;
-  padding: 0;
-}
-
 li{
-  margin-bottom: 15px;
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .flex{
@@ -62,10 +57,6 @@ li{
 
 .justify-between{
   justify-content: space-between;
-}
-
-.item-center{
-  align-items: center;
 }
 
 .subheading {
@@ -138,8 +129,8 @@ li{
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 14rem;
-    max-height: 14rem;
+    max-width: 10rem;
+    max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -214,14 +205,5 @@ a:hover, a:focus, a:active {
 
 .project .card{
   height: 100%;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 20px #343a4030
-  /* background: red; */
-}
-
-.more-btn{
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+  background: red;
 }

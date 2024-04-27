@@ -216,12 +216,6 @@ a:hover, a:focus, a:active {
   height: 100%;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 0px 20px #343a4030
+  box-shadow: 15px 15px 20px #343a4020;
   /* background: red; */
-}
-
-.more-btn{
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }

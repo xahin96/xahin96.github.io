@@ -219,9 +219,3 @@ a:hover, a:focus, a:active {
   box-shadow: 0px 0px 20px #343a4030
   /* background: red; */
 }
-
-.more-btn{
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
