@@ -7,7 +7,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -52,8 +52,19 @@ ul{
 }
 
 li{
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+li::after{
+  content:  url(../img/circle-1.svg);
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 15px;
+  width: 15px;
 }
 
 .flex{
@@ -224,4 +235,30 @@ a:hover, a:focus, a:active {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 0;
+  height: 35px;
+  width: 35px;
+  transition: all .3s;
+}
+.more-btn:focus{
+  outline: none;
+}
+
+.more-btn:hover{
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.style-none li{
+  list-style: none;
+  content: '';
+  padding: 0;
+}
+
+
+.style-none li::after{
+  list-style: none;
+  content: '';
+  height: inherit;
+  width: inherit;
 }
