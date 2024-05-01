@@ -239,6 +239,7 @@ a:hover, a:focus, a:active {
   height: 35px;
   width: 35px;
   transition: all .3s;
+  opacity: .7;
 }
 .more-btn:focus{
   outline: none;
@@ -247,6 +248,7 @@ a:hover, a:focus, a:active {
 .more-btn:hover{
   background-color: #ddd;
   border-radius: 5px;
+  opacity: 1;
 }
 
 .style-none li{
@@ -261,4 +263,8 @@ a:hover, a:focus, a:active {
   content: '';
   height: inherit;
   width: inherit;
+}
+
+button:focus{
+  outline: none;
 }
